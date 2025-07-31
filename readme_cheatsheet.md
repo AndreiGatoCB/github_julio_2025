@@ -1,69 +1,23 @@
-# Curso de GIT & GITHUB
 
-Tabla de contenidos
-- [Git y Github](#git_y_github)
-  - [Configuración de Git](#configuracion_de_git)
-    - [git init](#git_init)
-    - [git add](#git_add)
-    - [git commit](git_commit)
-    - [git branch](git_branch)
-    - [git remote add](git_remote_add)
-    - [git push](git_push)
-    - [git pull](git_pull)
-    - [git switch](git_switch)
-    - [git ignore](git_ignore)
-    - [pull request](pull_request)   
-    
-- [Markdown](#markdown)
-  - [Encabezados](#encabezados)
-  - [Énfasis](#énfasis)
-  - [Listas](#listas)
-  - [Enlaces](#enlaces)
-  - [Imágenes](#imágenes)
-  - [Resaltado de Código y Sintaxis](#resaltado-de-código-y-sintaxis)
-  - [Notas al Pie](#notas-al-pie)
-  - [Tablas](#tablas)
-  - [Citas en Bloque](#citas-en-bloque)
-  - [Línea Horizontal](#línea-horizontal)
-  - [Salto de Línea](#salto-de-línea)
-  - [Vídeos de YouTube](#vídeos-de-youtube)
+Esta es una referencia rápida y una muestra. Para obtener información más completa, consulta la [especificación original de John Gruber](https://daringfireball.net/projects/markdown/) 
+y la página de [información sobre Markdown con estilo de GitHub](https://docs.github.com/en/get-started/writing-on-github).
 
+También puedes explorar más [herramientas para Markdown](https://github.com/mundimark/awesome-markdown).
 
-# Git y GitHub
+# Tabla de Contenidos
 
-**git** es control de versiones
-
-**github** es el mas popular sitio para trabajar en equipo git en la nube
-
-### Configuración de Git
-```
-git config user.name
-git config --global user.name ""
-git config --global user.email ""
-```
-
-`git init`: inicializa un repositorio en la PC.
-
-`git add`: agregar informacion para enviar a la nube
-
-`git commit`: envía la informacion a la nube.
-
-`git branch -M`: crea una rama
-
-`git remote add origin https://....` conecta el repositorio de la PC al de la nube
-
-`git push`: envía toda la informacion
-
-`git pull`: me trae la informacion
-
-`git switch`: cambio de rama
-
-**.gitignore**: creo este archivo para que no me suba las carpetas locales .idea y .git
-
-**pull request**: hace una comparacion para ver que no haya un conflicto con la rama principal.
-
-# MARKDOWN
-
+- [Encabezados](#encabezados)
+- [Énfasis](#énfasis)
+- [Listas](#listas)
+- [Enlaces](#enlaces)
+- [Imágenes](#imágenes)
+- [Resaltado de Código y Sintaxis](#resaltado-de-código-y-sintaxis)
+- [Notas al Pie](#notas-al-pie)
+- [Tablas](#tablas)
+- [Citas en Bloque](#citas-en-bloque)
+- [Línea Horizontal](#línea-horizontal)
+- [Salto de Línea](#salto-de-línea)
+- [Vídeos de YouTube](#vídeos-de-youtube)
 
 # Encabezados
 ```
@@ -100,17 +54,26 @@ Alt-H2
 
 # Énfasis
 ```
+Énfasis, también conocido como cursiva, con *asteriscos* o _guiones bajos_.
+
+Énfasis fuerte, también conocido como negrita, con **asteriscos** o __guiones bajos__.
+
+Énfasis combinado con **asteriscos y _guiones bajos_**.
+
+El tachado usa dos tildes. ~~Tacha esto~~.
+
+```
+
 Cursiva, con *asteriscos* o _guiones bajos_.
 
 Negrita, con **asteriscos** o __guiones bajos__.
 
-Combinado con **asteriscos y _guiones bajos_**.
+Énfasis combinado con **asteriscos y _guiones bajos_**.
 
-El tachado usa dos virguillas. ~~Tacha esto~~.
+El tachado usa dos tildes. ~~Tacha esto~~.
 
-```
 # Listas
-En este ejemplo, los espacios al inicio y al final se muestran con puntos:
+En este ejemplo, los espacios al inicio y al final se muestran con puntos: ⋅)
 ```
 1. Primer elemento de lista ordenada
 2. Otro elemento
@@ -200,7 +163,7 @@ Un poco de texto para mostrar que los enlaces de referencia pueden ir al final.
 Aquí está nuestro logo (pasa el cursor para ver el texto del título):
 
 Estilo en línea: 
-![Logo](https://www.pngwing.com/es/free-png-dfpbl "Logo")
+![texto alternativo](https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo.png "Logo Title Text 1")
 
 Estilo de referencia: 
 ![texto alternativo][logo]
@@ -210,7 +173,7 @@ Estilo de referencia:
 Aquí está nuestro logo (pasa el cursor para ver el texto del título):
 
 Estilo en línea: 
-![Logo](https://www.pngwing.com/es/free-png-dfpbl "Logo")
+![texto alternativo](https://github.com/AndreiGatoCB/repo_curso_git_github/blob/main/Logo.png "Logo Title Text 1")
 
 Estilo de referencia: 
 ![texto alternativo][logo]
@@ -391,13 +354,13 @@ Esta línea solo está separada por un único salto de línea, así que es una l
 
 # Vídeos de youtube
 ```
-[![Las cuatro estaciones](https://www.pngwing.com/es/free-png-yspun)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
-
+[![Las cuatro estaciones](https://i.ytimg.com/
+vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-
+AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)]
+(https://www.youtube.com/watch?v=7DBIR30ks64&t)
 ```
 
-[![Las cuatro estaciones](https://www.pngwing.com/es/free-png-yspun)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
+[![Las cuatro estaciones](https://i.ytimg.com/vi/7DBIR30ks64/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gNigaMA8=&rs=AOn4CLCI4ggTOLGGLiUc2p98WhMyuD-h0w)](https://www.youtube.com/watch?v=7DBIR30ks64&t)
 
-
-
-
-
+# Colaboradores
+@AndreiGatoCB
